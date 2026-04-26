@@ -1,61 +1,21 @@
-CS 230 – Software Design Portfolio Artifact
-The Gaming Room – Draw It or Lose It
-Project Overview
+# CS 250 Software Development Lifecycle
 
-The Gaming Room was the client for this project. They had an existing Android-based game, Draw It or Lose It, and wanted to expand it into a web-based application accessible across multiple platforms, including desktop and mobile devices. The system needed to manage games, teams, and players while enforcing unique naming rules and maintaining a centralized service for object creation. The design also needed to support scalability and future cloud deployment.
+This repository contains my portfolio work from CS 250 at Southern New Hampshire University. The course focused on Agile and Scrum practices through the SNHU Travel project, where I rotated through different Scrum roles across the modules.
 
-This document outlines the system architecture, domain model, platform evaluation, and deployment recommendations required to transition the game into a distributed, web-based environment.
+## Final Artifact
 
-------------------------------------------------------------------------------------------------------------------------------------
+The Sprint Review and Retrospective document is included in this repo. It pulls together the Agile and Scrum work I did throughout the course as Scrum Master, Product Owner, Tester, and Developer.
 
-Strengths in This Design
+## Reflection
 
-One of my strongest contributions was clearly connecting business requirements to technical decisions. Rather than just describing features, I explained why specific design patterns—such as inheritance and the singleton service model—were appropriate for maintaining centralized control and enforcing naming constraints.
+**How do I interpret user needs and implement them into a program? How does creating user stories help with this?**
 
-I also evaluated multiple operating systems (Linux, Windows, macOS, and mobile platforms) from both technical and cost perspectives. This broader systems-level thinking reflects real-world decision-making beyond just writing code.
+The way I learned to interpret user needs is by listening for what the user actually wants to accomplish, not just what they say on the surface. User stories help a lot with this because they force you to capture the who, what, and why in one short sentence. The "why" part is what really keeps the developer focused on real value instead of just building features. Acceptance criteria then translate that intent into something testable, so you know when you've actually solved the problem.
 
-------------------------------------------------------------------------------------------------------------------------------------
+**How do I approach developing programs? What Agile processes do I hope to incorporate into my future development work?**
 
-Value of the Design Process
+I want to keep working in short iterations with regular check-ins. Sprints make the work feel manageable instead of one giant deliverable hanging over you. The processes I plan to carry forward are sprint planning to set realistic goals, daily standups to surface blockers early, and retrospectives to actually improve instead of repeating the same mistakes. Backlog refinement is another one I see real value in, since a clean backlog makes everything downstream easier.
 
-Working through the design document before implementation was extremely valuable. It clarified object relationships, service responsibilities, and scalability requirements before development began. In practice, investing time in design reduces rework and produces cleaner, more intentional code.
+**What does it mean to be a good team member in software development?**
 
-The process also helped me think about distributed systems, concurrency, and persistence early—considerations that become critical in production environments.
-
-------------------------------------------------------------------------------------------------------------------------------------
-
-Areas for Improvement
-
-If I were to revise one section, I would expand the distributed systems and concurrency discussion within the architecture overview. While scalability and database constraints were addressed in the recommendations, incorporating more detail earlier in the document would strengthen the overall flow.
-
-Adding a simple architectural diagram to illustrate client-server interactions would also enhance clarity for stakeholders.
-
-------------------------------------------------------------------------------------------------------------------------------------
-
-Interpreting User Needs
-
-The client’s primary needs were cross-platform accessibility, consistent naming enforcement, centralized game management, and scalability. I translated these into a layered architecture with a shared service model, structured domain entities, and a Linux-based cloud deployment recommendation.
-
-Designing with the user’s needs in mind is essential. Technical design must support real-world usage patterns, performance expectations, and long-term maintainability—not just functional correctness.
-
-------------------------------------------------------------------------------------------------------------------------------------
-
-Design Approach and Future Strategy
-
-My approach focused on structured problem breakdown:
-*Define business requirements
-*Model domain entities
-*Centralize service logic
-*Evaluate deployment platforms
-*Plan for scalability and security
-
-In future projects, I will continue using requirement mapping, UML modeling, and platform evaluation early in the process. Designing for scalability and statelessness from the beginning ensures smoother transitions into distributed environments.
-
-------------------------------------------------------------------------------------------------------------------------------------
-
-Repository Link:
-https://github.com/PatrickByrneJr/SNHU-Computer-Science.git
-
-------------------------------------------------------------------------------------------------------------------------------------
-
-This artifact demonstrates my ability to translate business requirements into scalable technical architecture while applying object-oriented design principles and strategic platform evaluation.
+A good team member shows up consistently, communicates honestly, and cares about the team's success more than personal credit. That means being clear when you're stuck, asking questions instead of guessing, and helping teammates when you can. It also means being open to feedback in retrospectives without getting defensive. Software is a team sport, and the team only moves as fast as the slowest blocker, so removing friction for others is just as valuable as writing good code yourself.
